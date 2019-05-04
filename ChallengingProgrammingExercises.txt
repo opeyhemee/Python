@@ -64,3 +64,51 @@ x=int(raw_input())
 print fact(x)
 #----------------------------------------#
 #----------------------------------------#
+
+Question 3
+Level 2
+
+Question:
+Write a program which takes a series of input. The first input is the array size and the subsequent ones are the array elements.
+
+Example 1
+Suppose the following inputs are given to the program:
+3
+5
+6
+0
+Then, the output of the program should be:
+[5, 6, 0]
+
+
+Example 2
+Suppose the following inputs are given to the program:
+7
+8
+7
+4
+1
+5
+8
+12
+Then, the output of the program should be:
+[8,7,4,1,5,8,12]
+
+Hints:
+Take first input and use that for your loop that inserts to an array
+
+Solution:
+
+ArrayNam = []
+V = int(input("Enter a number: "))
+for x in range(0,V):
+     Num = int(input("Enter a number: "))
+     ArrayNam.append(Num)
+
+
+print(ArrayNam)
+
+#----------------------------------------#
+#----------------------------------------#
+               
+               
