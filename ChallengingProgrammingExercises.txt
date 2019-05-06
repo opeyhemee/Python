@@ -110,4 +110,38 @@ print(ArrayNam)
 #----------------------------------------#
 #----------------------------------------#
                
-               
+Question 4
+Level 2
+
+Write a program which can compute the factorial of a given number. Every generated/subsequent number should be added to an array and then print the array afterward. Also, print the result of the factorial.
+
+Example 1: Suppose the following input is supplied to the program:
+8
+
+Then, the output should be:
+[8,7,6,5,4,3,2,1]
+
+
+40320
+
+Example 2: Suppose the following input is supplied to the program:
+4
+
+Then, the output should be:
+[4,3,2,1]
+
+24  
+
+Solution:
+
+ArrayNum =[]
+Num = int(input("Enter a number: "))
+RV = 1
+constantNum = Num
+for x in range(0, constantNum):
+     ArrayNum.append(Num)
+     RV = RV * Num
+     Num = Num-1
+print(ArrayNum)
+print(RV)
+                 
