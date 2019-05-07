@@ -144,4 +144,36 @@ for x in range(0, constantNum):
      Num = Num-1
 print(ArrayNum)
 print(RV)
+
+Question 5
+Level 2
+
+Level 1  Create a module for the previous assignment - create separate functions for both the dictionary e.g: [4,3,2,1] and the factorial e.g. 24. Then create a prompt file where you take input and call both imported functions.
+
+Solutions:
+
+def Arrayfun(Num):
+    ArrayNum =[]
+    constantNum = Num
+    for x in range(0, constantNum):
+         ArrayNum.append(Num)
+         Num = Num-1
+    print(ArrayNum)
+
+
+def RunningVar(Num):
+    RV = 1
+    constantNum = Num
+    for x in range(0, constantNum):
+            RV = RV * Num
+             Num = Num-1
+        print(RV)
+
+import Module1
+x = int(input("Enter a number: "))
+Module1.Arrayfun(x)
+Module1.RunningVar(x)
+
+
+
                  
