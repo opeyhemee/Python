@@ -174,6 +174,38 @@ x = int(input("Enter a number: "))
 Module1.Arrayfun(x)
 Module1.RunningVar(x)
 
+Question 6
+Level 2
+
+Create a module that takes the function that creates a biodata and a function that asks two questions which are 'do you have a degree' if yes ask what type of degree it is else if tell user to "get one ASAP
+
+Solutions:
+
+def Biodata_fun():
+    fname = input(" Enter your first name: ")
+    lname = input( " Enter your last name: ")
+    pnumber = input( " What is your phone number: ")
+
+    print(fname,lname, pnumber)
+
+
+
+
+def degree_fun():
+    degree1 = input(" do you have a degree: ")
+
+    if degree1 == "yes":
+        degree2 = input(" what type of degree: ")
+        print(degree2)
+    elif degree1 == "no":
+        print( " Work on getting one ASAP")
+
+import Module2
+ 
+Module2.Biodata_fun()
+Module2.degree_fun()
+
+
 
 
                  
