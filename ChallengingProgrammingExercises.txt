@@ -206,6 +206,23 @@ Module2.Biodata_fun()
 Module2.degree_fun()
 
 
+Question 7
+Level 2
+
+Create a set and 20 items prompted from the user to the set. Lastly, convert the set to tuple.
+
+Solution:
+
+thisset = {""}
+for x in range(20):
+  data = input("Input: ")
+  thisset.add(data)
+print(thisset)
+thistuple = tuple(thisset) # note the double round-
+print("--")
+print(thistuple)
+
+
 
 
                  
